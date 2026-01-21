@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Православный детский сад<br>во имя Преподобного Серафима Саровского</h1>
+                </div>
+                
+                <div class="nav">
+                    <ul class="menu">
+                        <li><a href="./index.html" class="menu-link">Главная</a></li>
+                        <li><a href="#" class="menu-link">О садике</a></li>
+                        <li><a href="#" class="menu-link">Галерея</a></li>
+                        <li><a href="#" class="menu-link">Новости</a></li>
+                        <li><a href="#" class="menu-link">Кружки</a></li>
+                        <li><a href="#" class="menu-link">Педагогам</a></li>
+                        <li><a href="#" class="menu-link">Родителям</a></li>
+                        <li><a href="./index2.html" class="menu-link">Контакты</a></li>
+                    </ul>
+                    
+                    <button class="burger-btn" id="burgerBtn">
+                        <img src="./assets/images/menu.webp" alt="Меню">
+                    </button>
+                </div>
+                
+                <div class="mobile-menu" id="mobileMenu">
+                    <ul class="mobile-menu-list">
+                        <li><a href="./index.html" class="mobile-menu-link">Главная</a></li>
+                        <li><a href="#" class="mobile-menu-link">О садике</a></li>
+                        <li><a href="#" class="mobile-menu-link">Галерея</a></li>
+                        <li><a href="#" class="mobile-menu-link">Новости</a></li>
+                        <li><a href="#" class="mobile-menu-link">Кружки</a></li>
+                        <li><a href="#" class="mobile-menu-link">Педагогам</a></li>
+                        <li><a href="#" class="mobile-menu-link">Родителям</a></li>
+                        <li><a href="./index2.html" class="mobile-menu-link">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="./assets/js/menu.js"></script>
+
+<div class="contacts-page">
+    <div class="contacts-title">КОНТАКТЫ</div>
+    
+    <div class="contacts-content">
+        <div class="contacts-info">
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <img src="/assets/images/carta.webp" alt="Адрес" class="contact-icon-img">
+                </div>
+                <div class="contact-details">
+                    <div class="contact-label">АДРЕС</div>
+                    <div class="contact-value">г. Нижний Новгород, ул. Шаляпина, 25</div>
+                </div>
+            </div>
+            
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <img src="/assets/images/telephon.webp" alt="Телефон" class="contact-icon-img">
+                </div>
+                <div class="contact-details">
+                    <div class="contact-label">ТЕЛЕФОН</div>
+                    <div class="contact-value">+7 (831) 274-63-11</div>
+                </div>
+            </div>
+            
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <img src="/assets/images/cloc.webp" alt="Время работы" class="contact-icon-img">
+                </div>
+                <div class="contact-details">
+                    <div class="contact-label">ВРЕМЯ РАБОТЫ</div>
+                    <div class="contact-value">с 6:30 до 18:30<br>(12 часов)</div>
+                </div>
+            </div>
+            
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <img src="/assets/images/pochta.webp" alt="Электронная почта" class="contact-icon-img">
+                </div>
+                <div class="contact-details">
+                    <div class="contact-label">ЭЛЕКТРОННАЯ ПОЧТА</div>
+                    <div class="contact-value">pravoslavdetsad.nn@mail.ru</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <div class="form-title">Свяжитесь с нами</div>
+                
+                <form class="form-fields">
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Введите ваше имя" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="tel" class="form-input" placeholder="Номер телефона" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" class="form-input" placeholder="E - mail" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="message-label">Сообщение</div>
+                        <textarea class="form-textarea" placeholder="Введите ваше сообщение..." rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-button">отправить сообщение</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="location-section">
+    <div class="location-title">КАК НАС НАЙТИ</div>
+    
+    <div class="map-container">
+        <div id="map" style="width: 100%; height: 500px; border: 2px solid #93D3FB; border-radius: 20px;"></div>
+        
+        <div class="map-address">
+            <div class="address-text">г. Нижний Новгород, ул. Шаляпина, 25</div>
+        </div>
+    </div>
+</div>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=YOUR_API_KEY&lang=ru_RU" type="text/javascript"></script>
+<footer class="contacts-footer">
+    <div class="footer-container">
+        <div class="footer-content">
+            <div class="footer-title">Православный детский сад во имя Преподобного Серафима Саровского</div>
+            <div class="footer-info">
+                <div class="footer-item">г. Нижний Новгород, ул. Шаляпина, 25</div>
+                <div class="footer-item">Телефон: +7 (831) 274-63-11</div>
+                <div class="footer-item">Email: pravoslavdetsad.nn@mail.ru</div>
+            </div>
+        </div>
+    </div>
+</footer>
+                
+<script src="./assets/js/carta.js"></script>
+</body>
+</html>
