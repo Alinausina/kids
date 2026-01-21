@@ -7,46 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <h1>Православный детский сад<br>во имя Преподобного Серафима Саровского</h1>
-                </div>
-                
-                <div class="nav">
-                    <ul class="menu">
-                        <li><a href="./index.html" class="menu-link">Главная</a></li>
-                        <li><a href="#" class="menu-link">О садике</a></li>
-                        <li><a href="#" class="menu-link">Галерея</a></li>
-                        <li><a href="#" class="menu-link">Новости</a></li>
-                        <li><a href="#" class="menu-link">Кружки</a></li>
-                        <li><a href="#" class="menu-link">Педагогам</a></li>
-                        <li><a href="#" class="menu-link">Родителям</a></li>
-                        <li><a href="./index2.html" class="menu-link">Контакты</a></li>
-                    </ul>
-                    
-                    <button class="burger-btn" id="burgerBtn">
-                        <img src="./assets/images/menu.webp" alt="Меню">
-                    </button>
-                </div>
-                
-                <div class="mobile-menu" id="mobileMenu">
-                    <ul class="mobile-menu-list">
-                        <li><a href="./index.html" class="mobile-menu-link">Главная</a></li>
-                        <li><a href="#" class="mobile-menu-link">О садике</a></li>
-                        <li><a href="#" class="mobile-menu-link">Галерея</a></li>
-                        <li><a href="#" class="mobile-menu-link">Новости</a></li>
-                        <li><a href="#" class="mobile-menu-link">Кружки</a></li>
-                        <li><a href="#" class="mobile-menu-link">Педагогам</a></li>
-                        <li><a href="#" class="mobile-menu-link">Родителям</a></li>
-                        <li><a href="./index2.html" class="mobile-menu-link">Контакты</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </header>
-    <script src="./assets/js/menu.js"></script>
+   @@include('../components/_header.html')
 
 <div class="contacts-page">
     <div class="contacts-title">КОНТАКТЫ</div>
@@ -136,18 +97,7 @@
     </div>
 </div>
 <script src="https://api-maps.yandex.ru/2.1/?apikey=YOUR_API_KEY&lang=ru_RU" type="text/javascript"></script>
-<footer class="contacts-footer">
-    <div class="footer-container">
-        <div class="footer-content">
-            <div class="footer-title">Православный детский сад во имя Преподобного Серафима Саровского</div>
-            <div class="footer-info">
-                <div class="footer-item">г. Нижний Новгород, ул. Шаляпина, 25</div>
-                <div class="footer-item">Телефон: +7 (831) 274-63-11</div>
-                <div class="footer-item">Email: pravoslavdetsad.nn@mail.ru</div>
-            </div>
-        </div>
-    </div>
-</footer>
+@@include('../components/_footer.html')
                 
 <script src="./assets/js/carta.js"></script>
 </body>
